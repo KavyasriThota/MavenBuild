@@ -9,5 +9,5 @@
           state: directory
     - name: deploy the code
       copy:
-        src: spock-example-1.0-SNAPSHOT.jar
-        dest: /var/lib/tomcat9/webapps/spock-example-1.0-SNAPSHOT.jar
+        src: java-example.war
+        dest: /var/lib/tomcat9/webapps/java-example.war
