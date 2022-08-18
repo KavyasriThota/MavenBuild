@@ -1,7 +1,7 @@
 ---
 - hosts: all
   tasks:
-    - name: permissions
+    - name: permission
       file:
           path: /var/lib/tomcat9/webapps
           mode: 0777
